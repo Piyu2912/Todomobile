@@ -273,6 +273,7 @@ button {
     left: 25%;
   }
   .listorig {
+    visibility: visible;
     line-height: 70px;
   }
   .vis {
