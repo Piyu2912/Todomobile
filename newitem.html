@@ -31,30 +31,35 @@
           <h2 class="task1">Trip to Paris</h2>
         </header>
         <div class="back">
-          <i class="fa-solid fa-circle-arrow-left"></i>
-          <p>Back</p>
+          <a href="./index.html">
+            <i class="fa-solid fa-circle-arrow-left"></i>
+            <p>Back</p></a>
+          </div>
           <div class="card">
-            <div class="card1 new">
+            <div class="card1 neworig">
               <h3>Trip to Paris</h3>
-              <hr />
-              <div class="list">
+              <hr class="vis">
+              <div class="listorig">
                 <p><del>Completed Task</del></p>
                 <div class="check">
                   <input type="checkbox" name="pending" required />
                   <label for="pending">Pending Task</label>
-                  <div class="add pos">
-                    <i class="fas fa-plus-circle bottom"></i>
+                  <div class="add pos posmob">
+                    <a href="./newitem.html">
+                      <i class="fas fa-plus-circle bottom"></i>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </div>
-    <div class="fore1 modal-dialog modal-dialog-centered">
+    <div class="foreground fore1">
       <h3 class="newList">Add New Item</h3>
-      <textarea name="Name" id="list" cols="50" rows="1"></textarea>
+      <div class="texta">
+        <textarea name="Name" id="list" cols="50" rows="1"></textarea>
+      </div>
       <button>ADD</button>
     </div>
   </body>
