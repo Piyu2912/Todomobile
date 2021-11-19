@@ -4,7 +4,7 @@
 }
 body {
   margin: 12%;
-  margin-left: 420px;
+  margin-left: 20%;
   margin-right: 420px;
   font-family: "Roboto", sans-serif;
 }
@@ -69,6 +69,7 @@ del {
   font-size: 60px;
   font-weight: 900;
   text-align: center;
+  width: 100%;
 }
 h2 {
   overflow: hidden;
@@ -84,6 +85,10 @@ h2:after {
   vertical-align: middle;
   width: 20%;
 }
+textarea {
+  font-size: 30px;
+  max-width: 100%;
+}
 h2:before {
   right: 0.5em;
   margin-left: -50%;
@@ -98,15 +103,15 @@ h2:after {
   text-align: center;
 }
 .new {
-  position: absolute;
-  left: 370px;
+  /* position: absolute;
+  left: 370px; */
   padding-left: 30px;
   padding-right: 30px;
 }
 .pos {
-  position: absolute;
-  right: 20px;
-  top: 320px;
+  position: relative;
+  top: 130px;
+  left: 120px;
 }
 .background {
   filter: blur(4px);
@@ -161,7 +166,27 @@ button {
 .hid {
   display: none;
 }
-@media (max-width: 1800px) {
+.neworig{
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1700px) {
+  .add1 {
+    display: none;
+  }
+  .add {
+    left: 720px;
+  }
+  .foreground{
+    min-width: 440px;
+  }
+  .pos {
+    position: relative;
+    top: 130px;
+    left: 120px;
+  }
+}
+@media (max-width: 968px) {
   body {
     margin: 0;
     padding: 0;
@@ -221,9 +246,9 @@ button {
   textarea {
     font-size: 30px;
     display: flex;
-    justify-content: center;
-    width: 100%;
+    max-width: 80%;
     margin: 8px;
+    box-sizing: border-box;
   }
   .texta {
     width: 97%;
