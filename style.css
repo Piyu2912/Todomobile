@@ -25,6 +25,7 @@ p {
   font-size: 50px;
   display: flex;
   position: relative;
+  width: 1100px;
 }
 .add {
   position: absolute;
@@ -35,6 +36,7 @@ p {
   display: flex;
   position: relative;
   margin-top: 40px;
+  width: 1150px;
 }
 .card1 {
   display: block;
@@ -48,7 +50,7 @@ p {
   font-size: 30px;
   margin-right: 30px;
   height: 220px;
-  width: 43%;
+  width: 550px;
 }
 #one {
   margin-left: 30px;
@@ -177,14 +179,18 @@ button {
     display: none;
   }
   .add {
-    left: 720px;
+    width: 100px;
+    left: 1020px;
   }
   .foreground{
     min-width: 440px;
   }
+  .new {
+    width: 350px;
+  }
   .pos {
     position: relative;
-    top: 130px;
+    /* top: 130px; */
     left: 120px;
   }
 }
@@ -271,6 +277,7 @@ button {
     padding: 40px;
   }
   .new {
+    width: 550px;
     left: 0px;
   }
   .new1 {
@@ -295,9 +302,9 @@ button {
     font-size: 30px;
     margin-right: 30px;
     height: 40%;
-    width: 55%;
+    width: 350px;
     position: relative;
-    left: 25%;
+    left: 20%;
   }
   .listorig {
     visibility: visible;
@@ -310,6 +317,6 @@ button {
   .posmob {
     position: absolute;
     top: 75%;
-    right: 5%;
+    left: 75%
   }
 } ;
